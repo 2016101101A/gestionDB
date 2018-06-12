@@ -15,7 +15,8 @@ class Material extends JsonResource
 			'titulo'	=>	$this->title,
 			'idioma'	=>	$this->language->language,
 			'tipo'		=>	$this->material_type->type,
-			'resumen'	=>	$this->abstract
+            'resumen'	=>	$this->abstract
+            
 		];
     }
 }

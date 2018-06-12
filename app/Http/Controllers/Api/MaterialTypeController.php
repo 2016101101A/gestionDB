@@ -9,5 +9,6 @@ class MaterialTypeController extends Controller
     public function index()
     {
         return MaterialTypeResource::collection(MaterialType::orderBy('type','asc')->get());
+        
     }
 }

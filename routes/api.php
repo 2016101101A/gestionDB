@@ -22,7 +22,9 @@ Route::middleware('cors')->group(function(){
 });
 Route::middleware('cors')->group(function(){
 	Route::get('languages','Api\LanguageController@index');
+	
 });
 Route::middleware('cors')->group(function(){
 	Route::get('materialstype','Api\MaterialTypeController@index');
+
 });

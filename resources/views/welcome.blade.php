@@ -15,7 +15,7 @@
 
     </head>
     <body>
-        <button id="btn" style="background:#FE2E9A;coloro:black height:34px; margin:0 auto; margin-right:10px; float:left;text-align:center">
+        <button id="btn" style="background:#FE2E9A;height:34px; margin:0 auto; margin-right:10px; float:left;text-align:center">
             OBTENER MATERIALES
         </button>
 

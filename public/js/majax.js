@@ -534,6 +534,7 @@ var Majax = function () {
 			this.token_type = data.token_type;
 			this.is_authenticate = true;
 			this.requestReload();
+			
 		}
 	}]);
 
