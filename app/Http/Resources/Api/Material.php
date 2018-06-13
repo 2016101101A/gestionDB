@@ -11,6 +11,7 @@ class Material extends JsonResource
      */
     public function toArray($request)
     {
+    
         return [
 			'titulo'	=>	$this->title,
 			'idioma'	=>	$this->language->language,

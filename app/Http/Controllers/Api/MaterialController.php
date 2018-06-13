@@ -7,6 +7,7 @@ use App\Http\Resources\Api\Material as MaterialResource;
 class MaterialController extends Controller
 
 {
+    
     /**
      * Display a listing of the resource.
      *

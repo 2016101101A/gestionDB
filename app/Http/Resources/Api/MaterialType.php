@@ -12,6 +12,7 @@ class MaterialType extends JsonResource
     public function toArray($request)
     {
         return [
+            
             'tipo'	=>	$this->type
             
 		];

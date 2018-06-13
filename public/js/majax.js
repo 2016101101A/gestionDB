@@ -526,6 +526,7 @@ var Majax = function () {
 			}
 		}
 	}, {
+		
 		key: '__responseJsonRefresh',
 		value: function __responseJsonRefresh(data) {
 			localStorage.setItem('authentication', JSON.stringify(data));

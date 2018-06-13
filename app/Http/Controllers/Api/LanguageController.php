@@ -8,6 +8,7 @@ class LanguageController extends Controller
 {
     public function index()
     {
+        
         return LanguageResource::collection(Language::orderBy('language','asc')->get());
         
     }
